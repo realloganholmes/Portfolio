@@ -23,6 +23,7 @@ const responsive = {
     },
 };
 
+
 function MyCarousel(props: MyCarouselProps) {
 
     const project = props.project;
