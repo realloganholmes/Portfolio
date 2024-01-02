@@ -1,0 +1,24 @@
+.involvementCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.involvementGutter {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+
+@media(max-width: 1000px) {
+    .involvementCont {
+        flex-direction: column;
+        height: 130vh;
+    }
+
+    .involvementGutter {
+        flex-grow: 0;
+    }
+}

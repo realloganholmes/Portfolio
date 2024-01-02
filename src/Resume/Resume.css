@@ -1,0 +1,23 @@
+.resumeWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeWrapper img {
+    width: 80vw;
+    max-width: 650px;
+    margin: 20px;
+}
+
+.resumeDownloads {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeDownloads a {
+    margin: 0 20px;
+}

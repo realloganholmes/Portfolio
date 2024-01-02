@@ -1,0 +1,102 @@
+.involveCard {
+    width: 100%;
+    position: absolute;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    box-sizing: border-box;
+    padding: 30px;
+    font-size: 1.1em;
+}
+
+.involveBG {
+    position: absolute;
+    width: 100%;
+    color: white;
+    height: 100%;
+    background-size: cover;
+    background: center;
+    z-index: 1;
+}
+
+.involveCardWrap {
+    position: relative;
+    height: 100%;
+    flex-basis: 0;
+    flex-grow: 4;
+    border: 1px solid black;
+    box-shadow: -5px -5px 3px #ff9061;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+    .involveCardWrap:hover {
+        cursor: pointer;
+    }
+
+.transBG {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+@media(max-width: 1300px) {
+    .involveCard {
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 1110px) {
+    .involveCard {
+        font-size: .9em;
+    }
+}
+
+@media(max-width: 1000px) {
+    .involveCardWrap {
+        width: 70%;
+    }
+
+    .involveCard {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media(max-width: 850px) {
+    .involveCardWrap {
+        width: 80%;
+    }
+
+    .involveCard {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media(max-width: 550px) {
+    .involveCardWrap {
+        width: 90%;
+    }
+
+    .involveCard {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media(max-width: 400px) {
+    .involveCard {
+        font-size: .8em;
+    }
+}
